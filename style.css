@@ -1,0 +1,25 @@
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.center .row
+{
+    margin: 0 auto;
+    width: 50%;
+}
+.btn{ width: 150px;}
+
+input[type = text]:focus{
+    outline: none;
+    border: 2px solid rgba(24, 5, 144, 0.703) ;
+    box-shadow: 0 0 10px rgba(24, 5, 144, 0.703);
+}
+/*
+input[type=radio]{
+    accent-color: darkblue;
+    transform: scale(1.15);
+    
+}
+*/
